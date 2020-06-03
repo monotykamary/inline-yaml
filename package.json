@@ -1,0 +1,41 @@
+{
+    "name": "inline-yaml",
+    "displayName": "Inline YAML Syntax Highlighting",
+    "description": "Javascript/Typescript YAML Template Literal Syntax Highlighting  🙌",
+    "version": "0.0.0",
+    "icon": "yaml-icon.png",
+    "publisher": "monotykamary",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/monotykamary/inline-yaml"
+    },
+    "contributes": {
+        "grammars": [
+            {
+                "injectTo": [
+                    "source.js",
+                    "source.ts",
+                    "source.jsx",
+                    "source.tsx"
+                ],
+                "scopeName": "inline.yaml",
+                "path": "./syntaxes/inline-yaml.json",
+                "embeddedLanguages": {
+                    "meta.embedded.block.yaml": "yaml"
+                }
+            }
+        ]
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^8.2.0",
+        "@commitlint/config-conventional": "^8.2.0",
+        "husky": "^4.2.5",
+        "standard-version": "^8.0.0"
+    }
+}
