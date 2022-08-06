@@ -2,7 +2,7 @@
     "name": "inline-yaml",
     "displayName": "Inline YAML Syntax Highlighting",
     "description": "Javascript/Typescript YAML Template Literal Syntax Highlighting  🙌",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "icon": "yaml-icon.png",
     "publisher": "monotykamary",
     "engines": {
