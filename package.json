@@ -22,7 +22,8 @@
                     "source.js",
                     "source.ts",
                     "source.jsx",
-                    "source.tsx"
+                    "source.tsx",
+                    "source.go"
                 ],
                 "scopeName": "inline.yaml",
                 "path": "./syntaxes/inline-yaml.json",
